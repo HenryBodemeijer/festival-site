@@ -1,0 +1,78 @@
+#background {
+    background-color: aqua;
+}
+
+.header {
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.navbar {
+    list-style-type: none;
+    margin-right: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+} 
+
+li a {
+    display: block;
+    width: 353px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;  
+}
+
+.nav {
+    background: black ;   
+}
+
+li a:hover:not(.active) {
+    background-color: darkslategray;
+} 
+
+  .active {
+    background-color: blue;
+}
+
+.border {
+border: 1px solid black;
+height: auto;
+width: auto;
+margin: 8px;
+padding: 20px;
+
+}
+
+#afb1 {
+    height: 200px;
+    width: auto;
+}
+
+.artikel {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px;
+    width: auto;
+    height: 200px;
+}
+
+#afb2 {
+    height: 200px;
+    width: auto;
+    float: right;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon {
+    width: 10px;
+    height: 10px;
+}
