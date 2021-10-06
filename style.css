@@ -1,0 +1,36 @@
+table, th, tr{
+    border: black 1px  solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div{
+    border: solid 2px black;
+    justify-content:center;
+    padding-left: 10px;
+    padding:100px;
+    text-align: center;
+}
