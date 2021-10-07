@@ -45,7 +45,7 @@ height: auto;
 width: auto;
 margin: 8px;
 padding: 20px;
-background-color: green;
+
 }
 
 #afb1 {
@@ -103,16 +103,22 @@ table, th, tr{
 } 
 
 #formulier {
+    display: block;
     border: 1px solid ;
     border-radius: 4px;
     padding: 10px;
     margin: 5px;
-    width: 300px;
-    background-color: blue;
+    width: 70%;
+    background: rgb(178,58,180);
+    background: linear-gradient(90deg, rgba(178,58,180,1) 0%, rgba(17,130,232,1) 57%, rgb(13, 78, 218) 100%);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
 }
 
 #form {
-    padding-left: 415px;
+
 }
 
 #back { 
@@ -145,4 +151,8 @@ table, th, tr{
 
  .tabel {
      color: white;
+}
+
+#tabel {
+    justify-content: center;
 }
