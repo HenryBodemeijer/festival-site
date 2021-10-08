@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+.background {
+    background: url(https://image.freepik.com/free-vector/abstract-design-background-with-blue-purple-gradient_1048-13167.jpg) no-repeat center fixed; 
+    background-size: cover;
+}
+
+.header {
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;  
+    color: white;
+}
+
+.navbar {
+    list-style-type: none;
+    margin-right: auto;
+    margin-right: auto;
+    padding: 0;
+    display: flex;
+    border-radius: 60px;
+} 
+
+li a {
+    display: block;
+    width: 120px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;  
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+li a:hover:not(.active) {
+    background-color: darkslategray;
+    border-radius: 60px;
+}
+ 
+li a:not(.active) {
+    background-color: rgba(47, 79, 79, 0.555);
+    border-radius: 60px;
+}
+
+  .active {
+    background-color: rgba(17,130,232,1);
+    border-radius: 60px;
+}
+
+.border {
+border: 1px solid black;
+height: auto;
+width: auto;
+margin: 8px;
+padding: 20px;
+
+}
+
+#afb1 {
+    height: 200px;
+    float: left;
+    padding: 5px;
+}
+
+.artikel {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px;
+    width: auto;
+    height: 225px;
+    color: white;
+    background: linear-gradient(90deg, rgba(178,58,180,0.7) 0%, rgba(17,130,232,0.7) 57%, rgb(13, 78, 218) 100%);
+}
+
+#afb2 {
+    height: 200px;
+    float: right;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+#makers {
+    text-decoration: underline;
+}
+
+#maker {
+   text-align: center;
+   padding-right: 100px;
+}
+
+table, th, tr{
+    border: white 1px  solid;
+}
+
+.div{
+    border: solid 2px white;
+    justify-content:center;
+    padding-left: 10px;
+    padding:100px;
+    text-align: center;
+} 
+
+#formulier {
+    display: block;
+    border: 1px solid ;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px;
+    width: 70%;
+    background: rgba(178,58,180,0.7);
+    background: linear-gradient(90deg, rgba(178,58,180,0.7) 0%, rgba(17,130,232,0.7) 57%, rgb(13, 78, 218) 100%);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+
+#back { 
+    background: url(https://www.inthesnow.com/wp-content/uploads/2019/09/Tomorrowland-Winter-Back-in-2020-CREDIT-TOMORROWLAND-4.jpg) no-repeat center fixed; 
+    background-size: cover;
+}
+
+  #border {
+    border: 1px solid white;
+    height: auto;
+    width: auto;
+    margin: 8px;
+    padding: 20px;
+    align-content: center;
+}
+
+ #header {
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif; 
+    color: white;
+}
+
+ .dagen {
+     color: white;
+     text-align: center;
+}
+
+ .tabel {
+     color: white;
+}
+
+#tabel {
+    justify-content: center;
+}
+
+.footers {
+    color: white;
+}
+
+table, th, tr{
+    border: black 1px  solid;
+}
+
+.div{
+    border: solid 2px black;
+    justify-content:center;
+    padding-left: 10px;
+    padding:100px;
+    text-align: center;
+}
+
+table {
+    background: linear-gradient(90deg, rgba(178,58,180,1) 0%, rgba(17,130,232,1) 57%, rgb(13, 78, 218) 100%);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-spacing: 0;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+td {
+    border: 1px  black solid;
+}
+
